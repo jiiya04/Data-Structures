@@ -1,0 +1,54 @@
+Factorial Test Cases
+factorial(0) = 1
+factorial(1) = 1
+factorial(5) = 120
+factorial(10) = 3628800
+
+
+Fibonacci Test Cases
+
+Fibonacci(5)
+Naive Result: 5
+Naive Calls: 15
+Memoized Result: 5
+Memoized Calls: 9
+
+Fibonacci(10)
+Naive Result: 55
+Naive Calls: 177
+Memoized Result: 55
+Memoized Calls: 19
+
+Fibonacci(20)
+Naive Result: 6765
+Naive Calls: 21891
+Memoized Result: 6765
+Memoized Calls: 39
+
+Fibonacci(30)
+Naive Result: 832040
+Naive Calls: 2692537
+Memoized Result: 832040
+Memoized Calls: 59
+
+
+Tower of Hanoi (N = 3)
+
+Move disk 1 from A to C
+Move disk 2 from A to B
+Move disk 1 from C to B
+Move disk 3 from A to C
+Move disk 1 from B to A
+Move disk 2 from B to C
+Move disk 1 from A to C
+
+Total Moves Stored in Stack: 7
+
+
+Binary Search Test Cases
+
+Search 7 -> Index: 3
+Search 1 -> Index: 0
+Search 13 -> Index: 6
+Search 2 -> Index: -1
+Search in empty array -> -1
