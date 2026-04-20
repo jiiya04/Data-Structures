@@ -1,0 +1,16 @@
+Original : [5, 2, 9, 1, 5, 6]
+Insertion: [1, 2, 5, 5, 6, 9]
+Merge    : [1, 2, 5, 5, 6, 9]
+Quick    : [1, 2, 5, 5, 6, 9]
+
+Sorting Performance Table (ms)
+-------------------------------------------------------------------------------------
+Size=1000  Type=Random   Insertion=118.722    Merge=5.858      Quick=4.216
+Size=1000  Type=Sorted   Insertion=0.337      Merge=3.792      Quick=2.815
+Size=1000  Type=Reverse  Insertion=125.571    Merge=4.563      Quick=3.089
+Size=5000  Type=Random   Insertion=1296.411   Merge=19.232     Quick=15.25
+Size=5000  Type=Sorted   Insertion=1.174      Merge=11.367     Quick=9.561
+Size=5000  Type=Reverse  Insertion=1361.441   Merge=8.756      Quick=7.819
+Size=10000 Type=Random   Insertion=4440.028   Merge=47.524     Quick=30.808
+Size=10000 Type=Sorted   Insertion=2.189      Merge=36.891     Quick=32.158
+Size=10000 Type=Reverse  Insertion=12833.885  Merge=42.611     Quick=64.385
